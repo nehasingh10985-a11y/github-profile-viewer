@@ -1,16 +1,95 @@
-# React + Vite
+# GitHub Profile Viewer 🔍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive GitHub Profile Explorer built with React. Search any GitHub user and instantly view their profile, repositories, language stats, and more.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [github-profile-viewer.vercel.app](https://github-profile-viewer.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔎 **Live Search Suggestions** — Real-time user suggestions as you type with avatars
+- 👤 **Profile Card** — Avatar, bio, location, company, followers & following stats
+- 📁 **Repository Cards** — Top repos with stars, forks, and language color badges
+- 📊 **Language Chart** — Visual bar chart of top programming languages used
+- 🌙 **Dark / Light Mode** — Smooth theme toggle with full UI adaptation
+- 🕓 **Recent Searches** — Last 5 searches saved in localStorage
+- 📋 **Copy Username** — One-click copy to clipboard
+- 🔀 **Filter & Sort Repos** — Filter by language, sort by stars, forks, name, or date
+- 🔗 **Shareable Profile Link** — URL updates with username for easy sharing
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Built With
+
+- **React** — UI library
+- **Vite** — Fast build tool
+- **GitHub REST API** — Live data fetching
+- **CSS-in-JS** — Inline styles with theme support
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js v18+
+- npm
+
+### Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/YOUR_USERNAME/github-profile-viewer.git
+
+# Go into the project folder
+cd github-profile-viewer
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── SearchBar.jsx       # Search input with live suggestions
+│   ├── ProfileCard.jsx     # User profile display
+│   ├── RepoCard.jsx        # Individual repo card
+│   ├── RepoFilter.jsx      # Language filter + sort dropdown
+│   └── LanguageChart.jsx   # Language usage bar chart
+├── App.jsx                 # Main app with state management
+└── index.css               # Global styles
+```
+
+---
+
+## 📸 Screenshots
+
+> Add your screenshots here after deployment
+
+---
+
+## 🌐 API Used
+
+- [GitHub Users API](https://api.github.com/users/{username})
+- [GitHub Repos API](https://api.github.com/users/{username}/repos)
+- [GitHub Search API](https://api.github.com/search/users?q={query})
+
+---
+
+## 📄 License
+
+MIT License — feel free to use and modify.
+
+---
+
+Made with ❤️ using React
