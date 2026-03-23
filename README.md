@@ -2,7 +2,7 @@
 
 A sleek and responsive GitHub Profile Explorer built with React. Search any GitHub user and instantly view their profile, repositories, language stats, and more.
 
-🔗 **Live Demo:** [github-profile-viewer.vercel.app](https://github-profile-viewer.vercel.app)
+🔗 **Live Demo:** [github-profile-viewer.vercel.app](github-profile-viewer-one-sigma.vercel.app)
 
 ---
 
@@ -53,7 +53,7 @@ These features are planned for future updates:
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/github-profile-viewer.git
+git clone https://github.com/nehasingh10985-a11y/github-profile-viewer.git
 
 # Go into the project folder
 cd github-profile-viewer
@@ -85,12 +85,6 @@ src/
 
 ---
 
-## 📸 Screenshots
-
-> Add your screenshots here after deployment
-
----
-
 ## 🌐 API Used
 
 - [GitHub Users API](https://api.github.com/users/{username})
@@ -98,5 +92,3 @@ src/
 - [GitHub Search API](https://api.github.com/search/users?q={query})
 
 ---
-
-
