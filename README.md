@@ -20,6 +20,19 @@ A sleek and responsive GitHub Profile Explorer built with React. Search any GitH
 
 ---
 
+## 🚀 Coming Soon
+
+These features are planned for future updates:
+
+- [ ] 📌 **Pinned Repositories** — Show user's pinned repos via GitHub GraphQL API
+- [ ] 👥 **Followers List Modal** — Click followers count to browse the full list
+- [ ] ⚔️ **Compare Two Profiles** — Side by side stats comparison of two GitHub users
+- [ ] 📈 **Activity Graph** — Contribution heatmap similar to GitHub's activity calendar
+- [ ] 📄 **README Preview** — Click any repo to read its README rendered in markdown
+- [ ] 📄 **Pagination** — Load more repositories beyond the initial 20
+
+---
+
 ## 🛠️ Built With
 
 - **React** — UI library
@@ -86,10 +99,4 @@ src/
 
 ---
 
-## 📄 License
 
-MIT License — feel free to use and modify.
-
----
-
-Made with ❤️ using React
